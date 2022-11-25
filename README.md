@@ -1,8 +1,8 @@
 # DW - Web APIs
 
-Este é um exercício da disciplina de Desenvolvimento Web onde se pretende a explorar o acesso a dados através de Web APIs. O objectivo deste trabalho é ajudar a desenvolver competências de programação para consulta e definição de critérios de pesquisa a uma Web API. 
+Este é um exercício da disciplina de Desenvolvimento Web onde se pretende explorar o acesso a dados através de Web APIs. O objectivo deste trabalho é ajudar a desenvolver competências de programação para consulta e definição de critérios de pesquisa a uma Web API. 
 
-Para este trabalho escolhi a API da empresa Spotify, um serviço de streaming de música, podcast e video mais populara e usado do mundo, tendo que implementar uma página para a respectiva consulta de dados fornecidos e disponibilizar as seguintes funcionalidades:
+Para este trabalho escolhi a API da empresa Spotify, um serviço de streaming de música, podcast e video mais popular e usado do mundo, tendo que implementar uma página para a respectiva consulta de dados fornecidos e disponibilizar as seguintes funcionalidades:
 
 - Apresentação geral dos resultados da API (ex. lista de notícias, livros, obras de arte,
   etc.);
