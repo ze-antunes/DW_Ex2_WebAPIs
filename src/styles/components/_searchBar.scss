@@ -1,0 +1,15 @@
+.search {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+
+  &__input {
+    background: none;
+    color: $white;
+    min-width: 280px;
+    border: none;
+    border-bottom: 1px solid $white;
+    outline: 0;
+    padding: 10px 0px;
+  }
+}

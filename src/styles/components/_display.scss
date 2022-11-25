@@ -1,0 +1,44 @@
+.display {
+    margin: 0 40px 40px 40px;
+    color: $dark-grey;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: $white;
+        font-size: 30px;
+    }
+
+    &__grid {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns:
+            repeat(auto-fit, minmax(200px, 1fr));
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    &__checkbox {
+        padding: 20px 0;
+        list-style: none;
+        color: $white;
+        display: flex;
+        flex-direction: row;
+
+
+        &-input {
+            position: relative;
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+        }
+
+        &-label {
+            padding: 0px 10px;
+        }
+    }
+}

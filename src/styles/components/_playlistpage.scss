@@ -1,0 +1,46 @@
+.playlist {
+    margin: 20px 40px;
+    color: $white; 
+
+    &__name {
+        margin-bottom: 20px;
+    }
+
+    &__grid {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns:
+            repeat(auto-fit, minmax(300px, 1fr));
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    &__song {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        background-color: $grey;
+        padding: 10px;
+    
+        &:hover {
+            background-color: $black;
+        }
+    
+        &-info {
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &-name {
+            min-width: 100px;
+            overflow: hidden;
+        }
+    
+        &-numb {
+            min-width: 100px;
+        }
+    }
+}
+

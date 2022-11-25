@@ -1,0 +1,34 @@
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 40px;
+    overflow: hidden;
+    background-color: $light-grey;
+
+    &__logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    &__navigation {
+        display: flex;
+        width: fit-content;
+        height: 50px;
+        padding: 10px 0;
+        float: left;
+        color: $white;
+        text-align: center;
+        text-decoration: none;
+        align-items: center;
+    
+        & a{
+            color: $white;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        &:hover {
+            background-color: $light-black;
+        }
+    }
+}
