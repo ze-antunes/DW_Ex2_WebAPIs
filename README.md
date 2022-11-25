@@ -29,3 +29,7 @@ To create a production build, use npm run build.
 
 webpack compiled successfully
 ```
+
+### Atenção*
+
+Este projeto utiliza ficheiros de estilos SASS. Se houver intenção de alterar estilos, após as mudanças estes ficheiros têm de ser compilados.
